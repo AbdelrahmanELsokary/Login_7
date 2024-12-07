@@ -44,3 +44,91 @@ header .container a {
   font-family: "Roboto", sans-serif;
   color: var(--Blue-Screen-of-Death);
 }
+section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 90px);
+  padding-top: 100px;
+}
+section .container .login h1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  padding-bottom: 20px;
+}
+section .container .login p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+  color: var(--Antarctica);
+  line-height: 21.7px;
+  padding-top: 10px;
+}
+section .container .login form {
+  margin-top: 50px;
+}
+section .container .login form label {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+}
+section .container .login form input:nth-child(1) {
+  outline: none;
+  border: 0.6px solid var(--Palladium);
+  border-bottom: 5px solid var(--Grotesque-Green);
+  border-radius: 6px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 20px 0;
+}
+section .container .login form input:nth-child(1)::placeholder {
+  font-size: 17px;
+  font-weight: 300;
+  font-family: "Nunito Sans", serif;
+  color: var(--black);
+}
+section .container .login form input {
+  outline: none;
+  border: 0.6px solid var(--Palladium);
+  border-radius: 6px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 20px 0;
+}
+section .container .login form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito Sans", serif;
+}
+
+section .container .login form .forget {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container .login form .forget label {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito Sans", serif;
+}
+section .container .login form .forget input {
+  cursor: pointer;
+  width: 20px;
+}
+section .container .login form a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito Sans", serif;
+  color: var(--Stieglitz-Silver);
+}
+section .container .login form input[type="submit"] {
+  background-color: var(--Blue-Screen-of-Death);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito Sans", serif;
+}
