@@ -34,8 +34,13 @@
   --white: white;
   --black: black;
 }
-header .container {
+header {
   padding: 20px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 20px 20px;
 }
 header .container a {
   text-decoration: none;
@@ -48,8 +53,8 @@ section .container {
   display: flex;
   gap: 200px;
   align-items: center;
-  height: calc(100vh - 90px);
-  padding-top: 100px 30px;
+  height: calc(100vh - 120px);
+  padding: 100px 20px 0 20px;
 }
 section .container .login h1 {
   font-size: 35px;
@@ -151,5 +156,8 @@ section .container .image img {
   }
   section .container .login {
     width: 100%;
+  }
+  section .container .login h1 {
+    font-size: 30px;
   }
 }
