@@ -22,3 +22,15 @@
     width: 1170px;
   }
 }
+:root {
+  --Blue-Screen-of-Death: #0a2fb6;
+  --Antarctica: #b9b8b8;
+  --Grotesque-Green: #54e28d;
+  --Cool-Current: #263a43;
+  --Palladium: #b1b1b1;
+  --Stieglitz-Silver: #8e8e8e;
+  --Cactus-Water: #d4ffe4;
+  --Fatal-Fields: #008a27;
+  --white: white;
+  --black: black;
+}
