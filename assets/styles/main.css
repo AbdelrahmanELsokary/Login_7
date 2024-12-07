@@ -41,5 +41,6 @@ header .container a {
   text-decoration: none;
   font-size: 30px;
   font-weight: 700;
-  
+  font-family: "Roboto", sans-serif;
+  color: var(--Blue-Screen-of-Death);
 }
